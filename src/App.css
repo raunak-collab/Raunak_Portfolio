@@ -1,0 +1,35 @@
+/* body {
+  font-family: 'Arial','Halvetica', 'sans-serif';
+} */
+
+.skill-circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 5px solid transparent; /* Outer border color */
+  border-radius: 50%;
+  background: conic-gradient(
+    var(--circle-color, orange) calc(var(--percentage, 90) * 1%),
+    #333333 calc(var(--percentage, 90) * 1%)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-circle .inner-circle {
+  width: 70px;
+  height: 70px;
+  background-color: #111;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.skill-circle .percentage {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}

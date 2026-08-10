@@ -24,26 +24,33 @@ const Projects = () => {
       view: 'https://passopp.netlify.app/',
     },
     {
-      title: '🎥 Netflix Clone',
+      title: '🔐 PassOP',
       description:
-        'Netflix Clone is a feature-rich streaming platform replica, offering a sleek and responsive interface to browse, search, and watch your favorite movies and TV shows. Experience the essence of Netflix.',
-      link: 'https://github.com/raunak-collab/Netflix-clone/tree/my-new-branch',
-      view: 'https://clonedindianetfli.netlify.app/',
+        'PassOP is a reliable and user-friendly password manager designed to safeguard your digital identity. Manage and store all your passwords in one place with advanced encryption and seamless access.',
+      link: 'https://github.com/raunak-collab/passop-mongodb/tree/my-new-branch',
+      view: 'https://passopp.netlify.app/',
     },
     {
-      title: '🎵 Spotify Clone',
+      title: '🛠️ DevHub',
+
       description:
-        'Spotify Clone is a music streaming platform, allowing users to browse, search, and play their favorite songs and albums. Enjoy features like playlist creation, playback controls, and a sleek, responsive design.',
-      link: 'https://github.com/raunak-collab/Spotify-Clone/tree/my-new-branch',
-      view: 'https://justspotify.netlify.app',
+        'DevHub is an all-in-one developer toolkit that brings essential utilities like JSON Formatter, JWT Decoder, Password Generator, Regex Tester, UUID Generator and more into one fast and modern platform.',
+
+      link: 'https://github.com/raunak-collab/Devhub',
+
+      view: 'https://devhub-uj2m.vercel.app/',
     },
     {
-      title: '🐦 Twitter Clone',
+      title: '💰 Track Your Expenses',
+
       description:
-        "A responsive Twitter clone built using only HTML and Tailwind CSS, showcasing a sleek and minimal design inspired by Twitter's interface.",
-      link: 'https://github.com/raunak-collab/Spotify-Clone/tree/my-new-branch',
-      view: 'https://xtwitterclone.netlify.app/',
+        'Track Your Expenses is a simple and intuitive expense management application that helps users record, organize and monitor their daily spending, making it easier to understand and manage personal finances.',
+
+      link: 'https://github.com/raunak-collab/track-your-expenses',
+
+      view: 'https://track-your-expenses-xi.vercel.app/',
     },
+
   ];
 
   return (
@@ -51,7 +58,7 @@ const Projects = () => {
       <section id="projects" className="py-20 bg-black">
         <div className="container mx-auto text-center text-[#f316b0]">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">My Projects</h2>
-        <div className='bg-[#f316b0] h-1 w-10 mx-auto mb-12'></div>
+          <div className='bg-[#f316b0] h-1 w-10 mx-auto mb-12'></div>
           <div className="grid grid-cols-1 px-4 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-5">
             {projects.map((project, index) => (
               <div

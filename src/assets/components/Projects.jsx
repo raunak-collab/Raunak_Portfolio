@@ -24,11 +24,11 @@ const Projects = () => {
       view: 'https://passopp.netlify.app/',
     },
     {
-      title: '🔐 PassOP',
+      title: '🔎 QueueLess',
       description:
-        'PassOP is a reliable and user-friendly password manager designed to safeguard your digital identity. Manage and store all your passwords in one place with advanced encryption and seamless access.',
-      link: 'https://github.com/raunak-collab/passop-mongodb/tree/my-new-branch',
-      view: 'https://passopp.netlify.app/',
+        'QueueLess is a modern healthcare queue management SaaS frontend built to help clinics and healthcare centers manage patients, doctors, receptionists, appointments, and digital queues through a centralized interface.',
+      link: 'https://github.com/raunak-collab/QueueLess-Frontend',
+      view: 'https://queuelessssss.netlify.app/',
     },
     {
       title: '🛠️ DevHub',

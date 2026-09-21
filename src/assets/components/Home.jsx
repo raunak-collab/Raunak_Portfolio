@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { FaArrowRight } from "react-icons/fa6";
-import myimg from '/img/myimg.png';
 
 const Home = () => {
   // Animation variants for container and items
@@ -85,9 +84,6 @@ const Home = () => {
               </motion.a>
             </div>
           </motion.div>
-          <div className='ml-4 bg-[#f316b0]  w-[31%] rounded-[50%]'>
-            <img width={470} className='relative' src={myimg} alt="" />
-          </div>
         </section>
         <div className='block relative bottom-0 bg-[#f316b0] w-full  h-[2px]'></div>
       </>
